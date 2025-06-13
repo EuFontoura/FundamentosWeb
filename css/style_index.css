@@ -1,0 +1,41 @@
+/* inicio navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2e2d2d;
+    min-height: 10vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+ul {
+    display: flex;
+    margin-bottom: 2vh;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+li{
+    transition: all .5s;
+}
+
+li:hover{
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* fim navbar */
