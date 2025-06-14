@@ -55,7 +55,12 @@ p {
   line-height: 1.6;
   text-align: justify;
   text-justify: inter-word;
-  margin-left: 5rem;
+   padding: 0 2rem;
+}
+
+#sobre {
+    margin-bottom: 2rem;
+    font-size: 40px;
 }
 
 .left-side,
@@ -76,3 +81,20 @@ img {
   display: block;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+  .first-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side, .right-side {
+    max-width: 100%;
+    margin: 2rem 0;
+  }}
