@@ -38,3 +38,12 @@ a:hover {
 }
 
 /* fim navbar */
+
+
+
+
+/* isso aqui deixa a seleção customizada */
+::selection {
+  background: #ffd700; 
+  color: black;       
+}

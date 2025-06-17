@@ -39,7 +39,7 @@ a:hover {
 /* fim navbar */
 
 body {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .first-section {
@@ -55,12 +55,12 @@ p {
   line-height: 1.6;
   text-align: justify;
   text-justify: inter-word;
-   padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 #sobre {
-    margin-bottom: 2rem;
-    font-size: 40px;
+  margin-bottom: 2rem;
+  font-size: 40px;
 }
 
 .left-side,
@@ -83,18 +83,26 @@ img {
 }
 
 @media (max-width: 768px) {
-    nav {
-        position: fixed;
-        width: 100%;
-        top: 0;
-    }
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
 
   .first-section {
     flex-direction: column;
     text-align: center;
   }
 
-  .left-side, .right-side {
+  .left-side,
+  .right-side {
     max-width: 100%;
     margin: 2rem 0;
-  }}
+  }
+}
+
+/* isso aqui deixa a seleção customizada */
+::selection {
+  background: #ffd700; 
+  color: black;       
+}

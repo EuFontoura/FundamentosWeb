@@ -1,34 +1,34 @@
 /* inicio navbar */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 nav {
-    background-color: #2e2d2d;
-    min-height: 10vh;
-    display: flex;
-    align-items: flex-end;
-
+  background-color: #2e2d2d;
+  min-height: 10vh;
+  display: flex;
+  align-items: flex-end;
 }
 
-ul {
-    display: flex;
-    margin-bottom: 2vh;
-    list-style: none;
-    gap: 30px;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    font-size: 20px;
-    color: aliceblue;
+nav ul {
+  display: flex;
+  margin-bottom: 2vh;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  font-size: 20px;
+  color: aliceblue;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 a:hover {
@@ -38,3 +38,43 @@ a:hover {
 }
 
 /* fim navbar */
+
+/* corpo do site */
+
+body {
+  background-color: darkgrey;
+}
+
+article {
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  max-width: 50rem;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-size: 50px;
+}
+
+main ul {
+  display: block;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+main li {
+  display: list-item;
+  margin-bottom: 20px;
+  list-style: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+/* fim do corpo  */
+
+/* isso aqui deixa a seleção customizada */
+::selection {
+  background: #ffd700; 
+  color: black;       
+}
