@@ -144,6 +144,13 @@ p {
   margin: 0 auto;
 }
 
+.left-side {
+    background-color: #fcfcfc;
+    padding: 1.5rem;
+    border-radius: 5%;
+    font-size: 17px;
+}
+
 img {
   max-width: 100%;
   height: auto;

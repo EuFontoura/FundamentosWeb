@@ -144,6 +144,37 @@ main li {
   font-size: 20px;
 }
 
+.bloco-formacao {
+  background-color: #3d3d3d;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  color: #f1f1f1;
+}
+
+.bloco-formacao h3 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+
+.bloco-formacao p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.lista-cursos {
+  list-style: square;
+  padding-left: 2rem;
+}
+
+.lista-cursos li {
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+
 /* fim do corpo  */
 
 /* isso aqui deixa a seleção customizada */
