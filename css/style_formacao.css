@@ -50,7 +50,7 @@ a:hover {
 }
 
 .menu {
-    display: none;
+  display: none;
 }
 
 .sidebar {
@@ -62,15 +62,15 @@ a:hover {
   position: fixed;
   border-right: 1px solid #ffd700;
   display: none;
-  transition: right 0.3s ease
+  transition: right 0.3s ease;
 }
 
 .active {
-    display: block;
+  display: block;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .sidebar ul {
@@ -97,6 +97,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  /* oculta o menu desktop e exibe ícone mobile em telas pequenas */
   ul {
     display: none;
   }
@@ -126,8 +127,8 @@ article {
 }
 
 h2 {
-    margin-bottom: 3rem;
-    font-size: 50px;
+  margin-bottom: 3rem;
+  font-size: 50px;
 }
 
 main ul {
@@ -144,12 +145,13 @@ main li {
   font-size: 20px;
 }
 
+/* Blocos com formações (academica e cursos) */
 .bloco-formacao {
   background-color: #3d3d3d;
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   color: #f1f1f1;
 }
 
@@ -179,6 +181,6 @@ main li {
 
 /* isso aqui deixa a seleção customizada */
 ::selection {
-  background: #ffd700; 
-  color: black;       
+  background: #ffd700;
+  color: black;
 }

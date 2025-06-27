@@ -97,6 +97,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    /* oculta o menu desktop e exibe ícone mobile em telas pequenas */
   ul {
     display: none;
   }
